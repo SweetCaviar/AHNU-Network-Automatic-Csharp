@@ -26,4 +26,4 @@
 7. 请保留脚本日志，这是排查错误的重要依据。
 
 如果这对你有所帮助，还请给个star！
-[Github](https://github.com/SweetCaviar/AHNU-Campus-Network-Automatic-Login-Csharp)
+[Github](https://github.com/SweetCaviar/AHNU-Network-Automatic-Csharp)
