@@ -11,7 +11,7 @@
 
 ## 使用手册
 
-1. 打开AHNU-Network-Automatic-Login，打开bin，打开Realse，下载里面的AHNU-Network-Automatic-Login.mis。
+1. 下载链接：链接：https://pan.quark.cn/s/94c3c849ff6c 提取码：dGFy。
 2. 按提示安装。
 3. 打开开始菜单，或在桌面双击AHNU-Network-Automatic-Login.exe，按提示操作即可。
 
