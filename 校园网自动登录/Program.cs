@@ -62,8 +62,7 @@ class Program
                         break;
                     }
 
-                    var wtime = (i + 1) * 1000;
-                    Task.Delay(wtime); // 第一次等待1秒,以此类推
+                    Task.Delay(1000); // 等待1秒
                 }
 
                 string finalTimestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");

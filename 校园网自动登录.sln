@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "校园网自动登录", "校园网自动登录\校园网自动登录.csproj", "{A862EC71-070E-4629-8DA1-20AA94BC3645}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup2", "Setup2\Setup2.vdproj", "{BF6E75DC-5A26-49D1-8FCC-BCC47FC6DFED}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AHNU-Network-Automatic-Login", "AHNU-Network-Automatic-Login\AHNU-Network-Automatic-Login.vdproj", "{75287599-5F66-45EB-8C58-949A392A1B00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{A862EC71-070E-4629-8DA1-20AA94BC3645}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A862EC71-070E-4629-8DA1-20AA94BC3645}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A862EC71-070E-4629-8DA1-20AA94BC3645}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BF6E75DC-5A26-49D1-8FCC-BCC47FC6DFED}.Debug|Any CPU.ActiveCfg = Debug
-		{BF6E75DC-5A26-49D1-8FCC-BCC47FC6DFED}.Release|Any CPU.ActiveCfg = Release
+		{75287599-5F66-45EB-8C58-949A392A1B00}.Debug|Any CPU.ActiveCfg = Debug
+		{75287599-5F66-45EB-8C58-949A392A1B00}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

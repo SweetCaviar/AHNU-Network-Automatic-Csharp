@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:Setup2"
+"ProjectName" = "8:AHNU-Network-Automatic-Login"
 "LanguageId" = "3:2052"
 "CodePage" = "3:936"
 "UILanguageId" = "3:2052"
@@ -15,56 +15,20 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_0B8445CCE39A44CBBBF4E9A60FEFF390"
+        "MsmKey" = "8:_04F14E50FCE646BABA7C124A44F8180A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_698DB652E7A94B89896AD5D177C778E4"
+        "MsmKey" = "8:_163FB977CDE64C04BDD5E803BCD0B4C5"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_7760DC1DA00048D6BCA0CC41BB4F0F10"
+        "MsmKey" = "8:_F1DB49A9E0DE41C0B0F978720EC4970A"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_D76F88971AF2497F8E340E2FE49D83F9"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_EAB0B69B2B02442AB9ED579CE62366FE"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F16E92C3CAC147F6A8484F112A8E913C"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_FAB4E0068249426CAA149ECD0B989755"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_FE3D4ABCBC11404F9E9D3EA34D55983A"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_698DB652E7A94B89896AD5D177C778E4"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -75,7 +39,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\AHNU.msi"
+        "OutputFilename" = "8:Debug\\AHNU-Network-Automatic-Login.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -85,21 +49,13 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
-            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
-            {
-            "Enabled" = "11:TRUE"
-            "PromptEnabled" = "11:TRUE"
-            "PrerequisitesLocation" = "2:1"
-            "Url" = "8:"
-            "ComponentsUrl" = "8:"
-            }
         }
         "Release"
         {
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\Setup2.msi"
+        "OutputFilename" = "8:Release\\AHNU-Network-Automatic-Login.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -118,10 +74,10 @@
             "ComponentsUrl" = "8:"
                 "Items"
                 {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.NetCore.CoreRuntime.8.0.x64"
                     {
-                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
-                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    "Name" = "8:.NET 运行时 8.0.4 (x64)"
+                    "ProductCode" = "8:Microsoft.NetCore.CoreRuntime.8.0.x64"
                     }
                 }
             }
@@ -142,7 +98,7 @@
         {
             "LaunchCondition"
             {
-                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_079E0D0896564608AAE768E567B316AE"
+                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_D5987221310740C18E685C4D3DF700C1"
                 {
                 "Name" = "8:.NET Core"
                 "Message" = "8:[VSDNETCOREMSG]"
@@ -152,95 +108,16 @@
                 "Architecture" = "2:0"
                 "Runtime" = "2:0"
                 }
-                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_DACEFB62147E4F2D9E1F311D099C00AD"
-                {
-                "Name" = "8:.NET Framework"
-                "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:.NETFramework,Version=v4.7.2"
-                "AllowLaterVersions" = "11:FALSE"
-                "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=863262"
-                }
             }
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0B8445CCE39A44CBBBF4E9A60FEFF390"
-            {
-            "SourcePath" = "8:..\\校园网自动登录\\bin\\Release\\net8.0\\校园网自动登录.pdb"
-            "TargetName" = "8:校园网自动登录.pdb"
-            "Tag" = "8:"
-            "Folder" = "8:_F9FC5CC0D14B4ECBB13732EB8BAD4E5C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_698DB652E7A94B89896AD5D177C778E4"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:校园网自动登录, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_698DB652E7A94B89896AD5D177C778E4"
-                    {
-                    "Name" = "8:校园网自动登录.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\校园网自动登录\\bin\\Release\\net8.0\\校园网自动登录.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_F9FC5CC0D14B4ECBB13732EB8BAD4E5C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7760DC1DA00048D6BCA0CC41BB4F0F10"
-            {
-            "SourcePath" = "8:..\\校园网自动登录\\bin\\Release\\net8.0\\校园网自动登录.deps.json"
-            "TargetName" = "8:校园网自动登录.deps.json"
-            "Tag" = "8:"
-            "Folder" = "8:_F9FC5CC0D14B4ECBB13732EB8BAD4E5C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D76F88971AF2497F8E340E2FE49D83F9"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_04F14E50FCE646BABA7C124A44F8180A"
             {
             "SourcePath" = "8:..\\校园网自动登录\\AHNU.ico"
             "TargetName" = "8:AHNU.ico"
             "Tag" = "8:"
-            "Folder" = "8:_F9FC5CC0D14B4ECBB13732EB8BAD4E5C"
+            "Folder" = "8:_3857EF1AC496451384EE830BBABA46F3"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -255,52 +132,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EAB0B69B2B02442AB9ED579CE62366FE"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F1DB49A9E0DE41C0B0F978720EC4970A"
             {
-            "SourcePath" = "8:C:\\Windows\\System32\\msiexec.exe"
-            "TargetName" = "8:uninstall.exe"
+            "SourcePath" = "8:..\\校园网自动登录\\msiexec.exe"
+            "TargetName" = "8:UnInstall.exe"
             "Tag" = "8:"
-            "Folder" = "8:_F9FC5CC0D14B4ECBB13732EB8BAD4E5C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F16E92C3CAC147F6A8484F112A8E913C"
-            {
-            "SourcePath" = "8:..\\校园网自动登录\\bin\\Release\\net8.0\\校园网自动登录.exe"
-            "TargetName" = "8:校园网自动登录.exe"
-            "Tag" = "8:"
-            "Folder" = "8:_F9FC5CC0D14B4ECBB13732EB8BAD4E5C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FE3D4ABCBC11404F9E9D3EA34D55983A"
-            {
-            "SourcePath" = "8:..\\校园网自动登录\\bin\\Release\\net8.0\\校园网自动登录.runtimeconfig.json"
-            "TargetName" = "8:校园网自动登录.runtimeconfig.json"
-            "Tag" = "8:"
-            "Folder" = "8:_F9FC5CC0D14B4ECBB13732EB8BAD4E5C"
+            "Folder" = "8:_3857EF1AC496451384EE830BBABA46F3"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -321,7 +158,19 @@
         }
         "Folder"
         {
-            "{1525181F-901A-416C-8A58-119130FE478E}:_55C9E05B866445899A63A073E4CC06F7"
+            "{3C67513D-01DD-4637-8A68-80971EB9504F}:_3857EF1AC496451384EE830BBABA46F3"
+            {
+            "DefaultLocation" = "8:[ProgramFiles64Folder][Manufacturer]\\[ProductName]"
+            "Name" = "8:#1925"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:TARGETDIR"
+                "Folders"
+                {
+                }
+            }
+            "{1525181F-901A-416C-8A58-119130FE478E}:_4608641C3FB14A7B967C0CF126515576"
             {
             "Name" = "8:#1916"
             "AlwaysCreate" = "11:FALSE"
@@ -332,19 +181,7 @@
                 {
                 }
             }
-            "{3C67513D-01DD-4637-8A68-80971EB9504F}:_F9FC5CC0D14B4ECBB13732EB8BAD4E5C"
-            {
-            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
-            "Name" = "8:#1925"
-            "AlwaysCreate" = "11:FALSE"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Property" = "8:TARGETDIR"
-                "Folders"
-                {
-                }
-            }
-            "{1525181F-901A-416C-8A58-119130FE478E}:_FD71323770B3446E9676987B9461B7EC"
+            "{1525181F-901A-416C-8A58-119130FE478E}:_4D006A887EE944AFAC88FE905E44A449"
             {
             "Name" = "8:#1919"
             "AlwaysCreate" = "11:FALSE"
@@ -353,6 +190,17 @@
             "Property" = "8:ProgramMenuFolder"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_C39537BB10984EB992677D2D44DC02B7"
+                    {
+                    "Name" = "8:AHNU校园网自动登录"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_C98A6367E01647AB9EFABEDAD6DB2232"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
         }
@@ -370,22 +218,22 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Setup2"
-        "ProductCode" = "8:{F4EF327C-A228-49B1-8D13-5536D649743D}"
-        "PackageCode" = "8:{955935B1-56A9-4EFE-84B6-E884FF607055}"
-        "UpgradeCode" = "8:{8A81CF2E-947E-401C-B062-49436EE3CC98}"
+        "ProductName" = "8:AHNU-Network-Automatic-Login"
+        "ProductCode" = "8:{1E714B7A-0ED5-49B8-A539-E9710653B3A4}"
+        "PackageCode" = "8:{68FD3C37-9897-4EB7-9159-879173E510F0}"
+        "UpgradeCode" = "8:{DA52A400-2FD0-4941-A734-B3B08C1E993C}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
-        "InstallAllUsers" = "11:FALSE"
+        "InstallAllUsers" = "11:TRUE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:郭峻豪"
+        "Manufacturer" = "8:SweetCaviar"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:Setup2"
+        "Title" = "8:AHNU-Network-Automatic-Login"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:郭峻豪"
+        "ARPCONTACT" = "8:SweetCaviar"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
@@ -393,7 +241,7 @@
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
-        "TargetPlatform" = "3:0"
+        "TargetPlatform" = "3:1"
         "PreBuildEvent" = "8:"
         "PostBuildEvent" = "8:"
         "RunPostBuildEvent" = "3:0"
@@ -404,7 +252,7 @@
             {
                 "Keys"
                 {
-                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_A371929E03B147E980704C856DB975A3"
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_7AFBDD1B5D7A4BBD9BDD5F817348B812"
                     {
                     "Name" = "8:Software"
                     "Condition" = "8:"
@@ -413,7 +261,7 @@
                     "Transitive" = "11:FALSE"
                         "Keys"
                         {
-                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_2FC07BA48F76485999E6F5EF210308A7"
+                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_FA0CA256B0564359910DF78F88A17F5F"
                             {
                             "Name" = "8:[Manufacturer]"
                             "Condition" = "8:"
@@ -438,7 +286,7 @@
             {
                 "Keys"
                 {
-                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_3AA2E3356E07458FAF5D5FD3BA3CA4CF"
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_B99F3C7A91B44FB6AFD7DF2A29C8CF2B"
                     {
                     "Name" = "8:Software"
                     "Condition" = "8:"
@@ -447,7 +295,7 @@
                     "Transitive" = "11:FALSE"
                         "Keys"
                         {
-                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_C8209B21DFA544DBA55CD4AF1B5B2154"
+                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_308F950010BD442BAA66FB2834A78990"
                             {
                             "Name" = "8:[Manufacturer]"
                             "Condition" = "8:"
@@ -492,45 +340,90 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_699C364BED304CAEA2FFFF7D1711ED18"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_A2567D2A9B26480E84D89E84B1D5ADF7"
             {
-            "Name" = "8:AHNU校园网自动登录"
+            "Name" = "8:AHNU-Network-Automatic-Login"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_FAB4E0068249426CAA149ECD0B989755"
-            "Folder" = "8:_55C9E05B866445899A63A073E4CC06F7"
-            "WorkingFolder" = "8:_F9FC5CC0D14B4ECBB13732EB8BAD4E5C"
-            "Icon" = "8:_D76F88971AF2497F8E340E2FE49D83F9"
+            "Target" = "8:_163FB977CDE64C04BDD5E803BCD0B4C5"
+            "Folder" = "8:_C39537BB10984EB992677D2D44DC02B7"
+            "WorkingFolder" = "8:_3857EF1AC496451384EE830BBABA46F3"
+            "Icon" = "8:_04F14E50FCE646BABA7C124A44F8180A"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_DCD473D2819D4003A16E6AC3890D808C"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_F88370ECAAF049A8AF120785AAEE79F2"
             {
-            "Name" = "8:AHNU校园网自动登录"
+            "Name" = "8:AHNU-Network-Automatic-Login"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_FAB4E0068249426CAA149ECD0B989755"
-            "Folder" = "8:_FD71323770B3446E9676987B9461B7EC"
-            "WorkingFolder" = "8:_F9FC5CC0D14B4ECBB13732EB8BAD4E5C"
-            "Icon" = "8:_D76F88971AF2497F8E340E2FE49D83F9"
+            "Target" = "8:_163FB977CDE64C04BDD5E803BCD0B4C5"
+            "Folder" = "8:_4608641C3FB14A7B967C0CF126515576"
+            "WorkingFolder" = "8:_3857EF1AC496451384EE830BBABA46F3"
+            "Icon" = "8:_04F14E50FCE646BABA7C124A44F8180A"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_FFCEABB030D144389AA473D930BF38FC"
+            {
+            "Name" = "8:卸载"
+            "Arguments" = "8:/x {1E714B7A-0ED5-49B8-A539-E9710653B3A4}"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_F1DB49A9E0DE41C0B0F978720EC4970A"
+            "Folder" = "8:_C39537BB10984EB992677D2D44DC02B7"
+            "WorkingFolder" = "8:_3857EF1AC496451384EE830BBABA46F3"
+            "Icon" = "8:"
             "Feature" = "8:"
             }
         }
         "UserInterface"
         {
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_12CA792A9BFC481F80FBB7EA28AD5245"
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_037FB591CF5A492891E4F8B46458F3E4"
+            {
+            "Name" = "8:#1902"
+            "Sequence" = "3:2"
+            "Attributes" = "3:3"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_20B6646AE5304A409B1A301C5CF7161B"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:已完成"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFinishedDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_10592AB15B6B47FAA75BA148C0B293CD"
             {
             "Name" = "8:#1901"
             "Sequence" = "3:2"
             "Attributes" = "3:2"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_17D79E71D8B04FB084AF6E61E71B1D99"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_51CE1C77BA0F495FA383FBD06D473D88"
                     {
                     "Sequence" = "3:100"
                     "DisplayName" = "8:进度"
@@ -567,20 +460,14 @@
                     }
                 }
             }
-            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_17CDA46A2E454CEC9E297590CC638A68"
-            {
-            "UseDynamicProperties" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "SourcePath" = "8:<VsdDialogDir>\\VsdBasicDialogs.wim"
-            }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_1BD222FAC0DB4098B1D589895D3568DF"
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_9ED1096807CC421AB0398C164E520D79"
             {
             "Name" = "8:#1900"
             "Sequence" = "3:1"
             "Attributes" = "3:1"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_2E905C067CB1426C8D59F2482F9D5F75"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_5EB9FCCD48BC4E61998671F85F947FC9"
                     {
                     "Sequence" = "3:300"
                     "DisplayName" = "8:确认安装"
@@ -602,42 +489,7 @@
                             }
                         }
                     }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_3977A4C29A514FF585D0F5A5CA6E9D9E"
-                    {
-                    "Sequence" = "3:200"
-                    "DisplayName" = "8:安装文件夹"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdFolderDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                            "InstallAllUsersVisible"
-                            {
-                            "Name" = "8:InstallAllUsersVisible"
-                            "DisplayName" = "8:#1059"
-                            "Description" = "8:#1159"
-                            "Type" = "3:5"
-                            "ContextData" = "8:1;True=1;False=0"
-                            "Attributes" = "3:0"
-                            "Setting" = "3:0"
-                            "Value" = "3:1"
-                            "DefaultValue" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_89FB589E904E4DB0BC9C7A6C2657B8D0"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_D2D8FF1EE1DA43D6BC6A3CEF37970441"
                     {
                     "Sequence" = "3:100"
                     "DisplayName" = "8:欢迎使用"
@@ -685,22 +537,13 @@
                             }
                         }
                     }
-                }
-            }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_2A24BB1D334340D1B53C9E09B4104D39"
-            {
-            "Name" = "8:#1901"
-            "Sequence" = "3:1"
-            "Attributes" = "3:2"
-                "Dialogs"
-                {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_C66BDAEB4C2B43FCAD9BFAA1AA8525D9"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_F8AB602CBCDC43F48638F968BA873E72"
                     {
-                    "Sequence" = "3:100"
-                    "DisplayName" = "8:进度"
+                    "Sequence" = "3:200"
+                    "DisplayName" = "8:安装文件夹"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdProgressDlg.wid"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdFolderDlg.wid"
                         "Properties"
                         {
                             "BannerBitmap"
@@ -714,11 +557,11 @@
                             "Setting" = "3:1"
                             "UsePlugInResources" = "11:TRUE"
                             }
-                            "ShowProgress"
+                            "InstallAllUsersVisible"
                             {
-                            "Name" = "8:ShowProgress"
-                            "DisplayName" = "8:#1009"
-                            "Description" = "8:#1109"
+                            "Name" = "8:InstallAllUsersVisible"
+                            "DisplayName" = "8:#1059"
+                            "Description" = "8:#1159"
                             "Type" = "3:5"
                             "ContextData" = "8:1;True=1;False=0"
                             "Attributes" = "3:0"
@@ -731,36 +574,14 @@
                     }
                 }
             }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_65AF25FB81E446A7962FD63D82F9D19E"
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_C2A4B809FCFA4BA8A2402185EFFFAD21"
             {
             "Name" = "8:#1900"
             "Sequence" = "3:2"
             "Attributes" = "3:1"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_2E917FDF08054D6E9EDE8B94ED794CBE"
-                    {
-                    "Sequence" = "3:300"
-                    "DisplayName" = "8:确认安装"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminConfirmDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_6460204881AE441A81C999D10BC292D2"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_32B0BF07125A4A68AF6A6D5C1BF40C4C"
                     {
                     "Sequence" = "3:200"
                     "DisplayName" = "8:安装文件夹"
@@ -782,7 +603,29 @@
                             }
                         }
                     }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_D3CF7723674340C58082098FCF9FD90C"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_4391D4755744492D9DD7073EAB878550"
+                    {
+                    "Sequence" = "3:300"
+                    "DisplayName" = "8:确认安装"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminConfirmDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_F7B854E717C341EBA079D499A9AE1610"
                     {
                     "Sequence" = "3:100"
                     "DisplayName" = "8:欢迎使用"
@@ -832,26 +675,20 @@
                     }
                 }
             }
-            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_9FF844CFAB314EF0932246AECF28D5FA"
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_C4AA78EA8BF94AC38C404B212F6ED885"
             {
-            "UseDynamicProperties" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "SourcePath" = "8:<VsdDialogDir>\\VsdUserInterface.wim"
-            }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_D971F6EDD1894818949A4CED9F168EEB"
-            {
-            "Name" = "8:#1902"
-            "Sequence" = "3:2"
-            "Attributes" = "3:3"
+            "Name" = "8:#1901"
+            "Sequence" = "3:1"
+            "Attributes" = "3:2"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_AD7D16797E2F481BA4A477574E58C196"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_2ED2959A5E3C48239222D04D481A0A5A"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:已完成"
+                    "DisplayName" = "8:进度"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFinishedDlg.wid"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdProgressDlg.wid"
                         "Properties"
                         {
                             "BannerBitmap"
@@ -865,18 +702,43 @@
                             "Setting" = "3:1"
                             "UsePlugInResources" = "11:TRUE"
                             }
+                            "ShowProgress"
+                            {
+                            "Name" = "8:ShowProgress"
+                            "DisplayName" = "8:#1009"
+                            "Description" = "8:#1109"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;True=1;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
                         }
                     }
                 }
             }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_FA44BF99867F4DCFA4B8A83D01FF8239"
+            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_CBF34C0132D04D809EE1F8BC9B0102FA"
+            {
+            "UseDynamicProperties" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "SourcePath" = "8:<VsdDialogDir>\\VsdUserInterface.wim"
+            }
+            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_DEAA9830E97A40FDB66C6DC53BBE76FA"
+            {
+            "UseDynamicProperties" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "SourcePath" = "8:<VsdDialogDir>\\VsdBasicDialogs.wim"
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_E06148E31AD840C3A37E8DE3CE8BC326"
             {
             "Name" = "8:#1902"
             "Sequence" = "3:1"
             "Attributes" = "3:3"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_3E37B7A07BEE4096A20042AC03E52476"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_F6D48414319C4803B45676949BC923BF"
                     {
                     "Sequence" = "3:100"
                     "DisplayName" = "8:已完成"
@@ -919,12 +781,12 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_FAB4E0068249426CAA149ECD0B989755"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_163FB977CDE64C04BDD5E803BCD0B4C5"
             {
             "SourcePath" = "8:..\\校园网自动登录\\obj\\Release\\net8.0\\apphost.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_F9FC5CC0D14B4ECBB13732EB8BAD4E5C"
+            "Folder" = "8:_3857EF1AC496451384EE830BBABA46F3"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
