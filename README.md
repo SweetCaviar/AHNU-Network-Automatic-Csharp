@@ -11,7 +11,7 @@
 
 ## 使用手册
 
-1. 下载链接：链接：https://pan.quark.cn/s/94c3c849ff6c 提取码：dGFy。
+1. 下载链接：https://pan.quark.cn/s/fd92a7255f21 提取码：tk2W
 2. 按提示安装。
 3. 打开开始菜单，或在桌面双击AHNU-Network-Automatic-Login.exe，按提示操作即可。
 
